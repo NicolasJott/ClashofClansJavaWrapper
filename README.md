@@ -1,6 +1,6 @@
 # ClashofClansJavaWrapper
 [`ClashofClansJavaWrapper`](https://github.com/NicolasJott/ClashofClansJavaWrapper)
-is a Java Wrapper used as an extension of the clash of clans REST API to gather game relateddata .
+is a Java Wrapper used as an extension of the clash of clans REST API to gather game related data .
 ## In order to use this. You must obtain a JSON Web Token obtained from (https://developer.clashofclans.com/) 
 
 
