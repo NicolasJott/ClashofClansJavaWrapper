@@ -15,24 +15,39 @@ public class Player {
 
     }
 
+    /*
+    * Reads Json file to return the Clash player's account tag
+     */
     public String getPlayerTag() throws JSONException {
         return (String) PLAYER_INFO.get("tag");
     }
 
+    /*
+     * Reads Json file to return the Clash player's account name
+     */
     public String getPlayerName() throws JSONException {
         return (String) PLAYER_INFO.get("name");
 
     }
 
+    /*
+     * Reads Json file to return the Clash player's TownHall level
+     */
     public int getTownHallLevel() throws JSONException {
         return (int) PLAYER_INFO.get("townHallLevel");
 
     }
 
+    /*
+     * Reads Json file to return the Clash player's TownHall weapon level
+     */
     public int getTownHallWeaponLevel() throws JSONException {
         return (int) PLAYER_INFO.get("townHallWeaponLevel");
     }
 
+    /*
+     * Reads Json file to return the Clash player's account level
+     */
     public int getExpLevel() throws JSONException {
         return (int) PLAYER_INFO.get("expLevel");
     }
