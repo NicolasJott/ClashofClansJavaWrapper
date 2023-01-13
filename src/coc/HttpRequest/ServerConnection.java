@@ -1,4 +1,4 @@
-package coc.exceptions;
+package coc.HttpRequest;
 
 import java.io.BufferedReader;
 import java.io.IOException;

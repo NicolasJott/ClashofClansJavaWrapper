@@ -3,7 +3,7 @@ package coc.Clan;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import coc.exceptions.ServerConnection;
+import coc.HttpRequest.ServerConnection;
 import java.io.IOException;
 
 public class Clan {
