@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3b90a2c-812c-4c01-a539-86730a2dd286" name="Changes" comment="implemented functionality to access clan data">
-      <change beforePath="$PROJECT_DIR$/src/Clan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clan/Clan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ClanInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clan/ClanInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PlayerInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player/PlayerInfo.java" afterDir="false" />
+    <list default="true" id="c3b90a2c-812c-4c01-a539-86730a2dd286" name="Changes" comment="Refactored File System">
+      <change beforePath="$PROJECT_DIR$/src/coc/Clan/Clan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coc/Clan/Clan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/coc/LockedItemException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coc/exceptions/LockedItemException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/coc/Player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coc/Player/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/coc/ServerConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coc/exceptions/ServerConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/coc/WrapperException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coc/exceptions/WrapperException.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,14 +44,18 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Nicolas/Downloads/jar_files (1)/gson-2.10.1.jar",
+    "last_opened_file_path": "C:/Users/Nicolas/Documents/Java/ClashofClansWrapper/src/java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Nicolas\Documents\Java\ClashofClansWrapper\src\java" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Nicolas\Documents\Java\ClashofClansWrapper\src\coc" />
       <recent name="C:\Users\Nicolas\Documents\Java\ClashofClansWrapper\src" />
       <recent name="C:\Users\Nicolas\Documents\Java\ClashofClansWrapper" />
     </key>
@@ -65,7 +70,7 @@
       <updated>1673632689528</updated>
       <workItem from="1673632690688" duration="1324000" />
       <workItem from="1673636772586" duration="6560000" />
-      <workItem from="1673643367327" duration="3418000" />
+      <workItem from="1673643367327" duration="3738000" />
     </task>
     <task id="LOCAL-00001" summary="Init Commit">
       <created>1673642137486</created>
@@ -102,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673646689842</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Refactored File System">
+      <created>1673647077525</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1673647077525</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +136,7 @@
     <MESSAGE value="made Changes" />
     <MESSAGE value="Added more methods to pull information from player info json file" />
     <MESSAGE value="implemented functionality to access clan data" />
-    <option name="LAST_COMMIT_MESSAGE" value="implemented functionality to access clan data" />
+    <MESSAGE value="Refactored File System" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored File System" />
   </component>
 </project>

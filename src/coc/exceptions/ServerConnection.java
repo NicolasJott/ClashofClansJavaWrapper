@@ -1,4 +1,4 @@
-package coc;
+package coc.exceptions;
 
 import java.io.BufferedReader;
 import java.io.IOException;

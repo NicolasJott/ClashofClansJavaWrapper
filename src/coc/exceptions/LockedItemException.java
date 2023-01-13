@@ -1,4 +1,4 @@
-package coc;
+package coc.exceptions;
 
 public class LockedItemException extends WrapperException {
 
