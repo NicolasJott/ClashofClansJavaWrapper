@@ -16,9 +16,13 @@ public class Player {
 
     }
 
-
-    // Player Info
-
+    /*
+    *****************************************************************
+    *                                                               *
+    *                     Player Info                               *
+    *                                                               *
+    *****************************************************************
+     */
     /*
     * Reads Json file to return the Clash player's account tag
      */
@@ -164,9 +168,13 @@ public class Player {
     }
 
 
-
-
-    // Player Clan Info
+    /*
+     *****************************************************************
+     *                                                               *
+     *                     Player Clan Info                          *
+     *                                                               *
+     *****************************************************************
+     */
     /*
      * Reads Json file to return the Clash player's clan tag
      * Check's to see if player is in clan. If so, it returns the clan tag. If not it returns not in a clan
