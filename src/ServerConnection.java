@@ -27,7 +27,7 @@ public class ServerConnection {
             response.append(line);
         }
         reader.close();
-        System.out.println(response.toString());
+        //System.out.println(response.toString());
 
         return new JSONObject(response.toString());
     }
