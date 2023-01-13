@@ -1,6 +1,6 @@
 ### IntelliJ IDEA ###
 out/
-src/Tokens/
+src/coc/Tokens/
 !**/src/main/**/out/
 !**/src/test/**/out/
 

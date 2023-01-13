@@ -1,6 +1,9 @@
+package coc.Clan;
+
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import coc.ServerConnection;
 import java.io.IOException;
 
 public class Clan {

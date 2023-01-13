@@ -1,5 +1,4 @@
-package exceptions;
-import exceptions.WrapperException;
+package coc;
 
 public class LockedItemException extends WrapperException {
 

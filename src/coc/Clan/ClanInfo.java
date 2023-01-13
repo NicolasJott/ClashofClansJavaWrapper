@@ -1,5 +1,6 @@
-import Tokens.Tokens;
+package coc.Clan;
 
+import coc.Tokens.Tokens;
 import java.io.IOException;
 
 public class ClanInfo {

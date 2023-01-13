@@ -1,9 +1,10 @@
-import com.google.gson.annotations.SerializedName;
+package coc.Player;
+
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import coc.ServerConnection;
 import java.io.IOException;
-import java.net.HttpURLConnection;
 
 public class Player {
     private final JSONObject  PLAYER_INFO;

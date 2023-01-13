@@ -1,4 +1,6 @@
-import Tokens.Tokens;
+package coc.Player;
+
+import coc.Tokens.Tokens;
 
 import java.io.IOException;
 
@@ -25,7 +27,7 @@ public class PlayerInfo {
         System.out.println("Trophies: " + berry.getTrophies());
         System.out.println("Best Trophies: " + berry.getBestTrophies());
         System.out.println("Total War Stars: " + berry.getTotalWarStars());
-        System.out.println("Total Clan Capital Contributions: " + berry.getClanCapitalContributions());
+        System.out.println("Total  Capital Contributions: " + berry.getClanCapitalContributions());
 
 
 

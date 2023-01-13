@@ -1,4 +1,4 @@
-package exceptions;
+package coc;
 
 public class WrapperException extends Exception {
 
