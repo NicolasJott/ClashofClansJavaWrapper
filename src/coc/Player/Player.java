@@ -16,6 +16,9 @@ public class Player {
 
     }
 
+
+    // Player Info
+
     /*
     * Reads Json file to return the Clash player's account tag
      */
@@ -158,5 +161,57 @@ public class Player {
      */
     public int getClanCapitalContributions() throws JSONException {
         return PLAYER_INFO.has("clanCapitalContributions") ? (int) PLAYER_INFO.get("clanCapitalContributions") : 0;
+    }
+
+
+
+
+    // Player Clan Info
+    /*
+     * Reads Json file to return the Clash player's clan tag
+     * Check's to see if player is in clan. If so, it returns the clan tag. If not it returns not in a clan
+     */
+    public String getClanTag() throws JSONException {
+        return PLAYER_INFO.has("clan") ? (String) PLAYER_INFO.getJSONObject("clan").get("tag") : "Not in a clan";
+    }
+
+    /*
+     * Reads Json file to return the Clash player's clan name
+     * Check's to see if player is in clan. If so, it returns the clan name. If not it returns not in a clan
+     */
+    public String getClanName() throws JSONException {
+        return PLAYER_INFO.has("clan") ? (String) PLAYER_INFO.getJSONObject("clan").get("name") : "Not in a clan";
+    }
+
+    /*
+     * Reads Json file to return the Clash player's clan level
+     * Check's to see if player is in clan. If so, it returns the clan level. If not it returns 0
+     */
+    public int getClanLevel() throws JSONException {
+        return PLAYER_INFO.has("clan") ? (int) PLAYER_INFO.getJSONObject("clan").get("clanLevel") : 0;
+    }
+
+    /*
+     * Reads Json file to return the Clash player's small clan badge url
+     * Check's to see if player is in clan. If so, it returns the small clan badge url. If not it returns not in clan
+     */
+    public String getSmallClanBadge() throws JSONException {
+        return PLAYER_INFO.has("clan") ? (String) PLAYER_INFO.getJSONObject("clan").getJSONObject("badgeUrls").get("small") : "Not in a clan";
+    }
+
+    /*
+     * Reads Json file to return the Clash player's medium clan badge url
+     * Check's to see if player is in clan. If so, it returns the medium clan badge url. If not it returns not in clan
+     */
+    public String getMediumClanBadge() throws JSONException {
+        return PLAYER_INFO.has("clan") ? (String) PLAYER_INFO.getJSONObject("clan").getJSONObject("badgeUrls").get("medium") : "Not in a clan";
+    }
+
+    /*
+     * Reads Json file to return the Clash player's large clan badge url
+     * Check's to see if player is in clan. If so, it returns the large clan badge url. If not it returns not in clan
+     */
+    public String getLargeClanBadge() throws JSONException {
+        return PLAYER_INFO.has("clan") ? (String) PLAYER_INFO.getJSONObject("clan").getJSONObject("badgeUrls").get("large") : "Not in a clan";
     }
 }

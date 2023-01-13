@@ -27,7 +27,9 @@ public class PlayerInfo {
         System.out.println("Trophies: " + berry.getTrophies());
         System.out.println("Best Trophies: " + berry.getBestTrophies());
         System.out.println("Total War Stars: " + berry.getTotalWarStars());
-        System.out.println("Total  Capital Contributions: " + berry.getClanCapitalContributions());
+        System.out.println("Total Capital Contributions: " + berry.getClanCapitalContributions());
+        System.out.println("Clan Tag: " + berry.getClanTag());
+        System.out.println("Clan Badge: " + berry.getLargeClanBadge());
 
 
 
