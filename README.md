@@ -5,7 +5,7 @@ This program is a Java Wrapper used as an extension of the clash of clans REST A
 
 
 
-```
+```.java
         String PLAYER_TAG;
         String API_KEY = Tokens.getAPI_KEY();
         Player player = new Player(API_KEY, PLAYER_TAG);
