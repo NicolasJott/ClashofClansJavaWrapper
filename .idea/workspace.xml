@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3b90a2c-812c-4c01-a539-86730a2dd286" name="Changes" comment="added more outputs">
+    <list default="true" id="c3b90a2c-812c-4c01-a539-86730a2dd286" name="Changes" comment="Made minimal changes">
+      <change afterPath="$PROJECT_DIR$/src/coc/Clan/ClanCurrentWar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/coc/Clan/Clan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coc/Clan/Clan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/coc/Clan/ClanInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coc/Clan/ClanInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/coc/Player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coc/Player/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/coc/Player/PlayerInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coc/Player/PlayerInfo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,20 +45,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Nicolas/Documents/Java/ClashofClansWrapper/src/java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Nicolas/Documents/Java/ClashofClansWrapper/src/java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Nicolas\Documents\Java\ClashofClansWrapper\src\java" />
@@ -75,7 +79,8 @@
       <updated>1673632689528</updated>
       <workItem from="1673632690688" duration="1324000" />
       <workItem from="1673636772586" duration="6560000" />
-      <workItem from="1673643367327" duration="9332000" />
+      <workItem from="1673643367327" duration="9359000" />
+      <workItem from="1673724951570" duration="5083000" />
     </task>
     <task id="LOCAL-00001" summary="Init Commit">
       <created>1673642137486</created>
@@ -161,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673652392636</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Made minimal changes">
+      <created>1673671110224</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1673671110224</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,6 +200,7 @@
     <MESSAGE value="Added more .get methods" />
     <MESSAGE value="Made comments more obvious" />
     <MESSAGE value="added more outputs" />
-    <option name="LAST_COMMIT_MESSAGE" value="added more outputs" />
+    <MESSAGE value="Made minimal changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made minimal changes" />
   </component>
 </project>

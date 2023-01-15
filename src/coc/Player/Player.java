@@ -1,5 +1,6 @@
 package coc.Player;
 
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -222,4 +223,39 @@ public class Player {
     public String getLargeClanBadge() throws JSONException {
         return PLAYER_INFO.has("clan") ? (String) PLAYER_INFO.getJSONObject("clan").getJSONObject("badgeUrls").get("large") : "Not in a clan";
     }
+
+    /*
+     *****************************************************************
+     *                                                               *
+     *                     Player League Info                          *
+     *                                                               *
+     *****************************************************************
+     */
+
+    public int getLeagueID() throws JSONException {
+        return PLAYER_INFO.has("league") ? (int) PLAYER_INFO.getJSONObject("league").get("id") : 0;
+    }
+
+    public String getLeagueName() throws JSONException {
+        return PLAYER_INFO.has("league") ? (String) PLAYER_INFO.getJSONObject("league").get("name") : "Not in a League";
+    }
+    public String getSmallIconUrl() throws JSONException {
+        return PLAYER_INFO.has("league") ? (String) PLAYER_INFO.getJSONObject("league").getJSONObject("iconUrls").get("small") : "Not in a League";
+
+    }
+
+    public String getTinyIconUrl() throws JSONException {
+        return PLAYER_INFO.has("league") ? (String) PLAYER_INFO.getJSONObject("league").getJSONObject("iconUrls").get("tiny") : "Not in a League";
+
+    }
+
+    public String getMediumIconUrl() throws JSONException {
+        return PLAYER_INFO.has("league") ? (String) PLAYER_INFO.getJSONObject("league").getJSONObject("iconUrls").get("medium") : "Not in a League";
+
+    }
+
+    public JSONArray getAchievements () throws JSONException {
+        return PLAYER_INFO.has("achievements") ? PLAYER_INFO.getJSONArray("achievements") : new JSONArray("[]");
+    }
+
 }
