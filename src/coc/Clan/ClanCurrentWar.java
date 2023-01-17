@@ -13,7 +13,7 @@ public class ClanCurrentWar {
     public ClanCurrentWar(String api_key, String clan_tag) throws IOException {
 
         WAR_INFO = ServerConnection.connectWithResults(api_key, ServerConnection.ENDPOINT + ServerConnection.API_VER
-                + "/clans/%23" + clan_tag + "/currentwar", clan_tag);
+                + "/clans/%23" + clan_tag + "/currentwar");
     }
 
     public String getWarState() throws JSONException {

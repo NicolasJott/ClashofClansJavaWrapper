@@ -13,7 +13,7 @@ public class Player {
     public Player(String api_key, String player_tag) throws IOException {
 
         PLAYER_INFO = ServerConnection.connectWithResults(api_key, ServerConnection.ENDPOINT + ServerConnection.API_VER
-                + "/players/%23" + player_tag, player_tag);
+                + "/players/%23" + player_tag);
 
     }
 

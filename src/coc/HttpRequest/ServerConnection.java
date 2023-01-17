@@ -12,7 +12,7 @@ public class ServerConnection {
 
     public static final String ENDPOINT = "https://api.clashofclans.com/";
     public static final String API_VER = "v1";
-    public static JSONObject connectWithResults(String API_KEY, String link, String PLAYER_TAG) throws IOException {
+    public static JSONObject connectWithResults(String API_KEY, String link) throws IOException {
 
 
         HttpURLConnection connection = (HttpURLConnection) new URL(link).openConnection();
