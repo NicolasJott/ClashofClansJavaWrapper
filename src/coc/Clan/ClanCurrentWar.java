@@ -5,6 +5,9 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.IOException;
+import java.math.BigDecimal;
+import java.math.BigInteger;
+import java.util.Objects;
 
 public class ClanCurrentWar {
 
@@ -20,8 +23,36 @@ public class ClanCurrentWar {
         return (String) WAR_INFO.get("state");
     }
 
-    public int getWarRosterSize() throws JSONException {
-        return (int) WAR_INFO.get("teamSize");
+    public Integer getWarRosterSize() throws JSONException {
+        if (Objects.equals(getWarState(), "notInWar")) {
+            return 0;
+        }
+        return (Integer) WAR_INFO.get("teamSize");
     }
+
+    public Integer getCurrentStars() throws JSONException {
+        return (Integer) WAR_INFO.getJSONObject("clan").get("stars");
+    }
+
+    public Integer getCurrentAttacks() throws JSONException {
+        return (Integer) WAR_INFO.getJSONObject("clan").get("attacks");
+    }
+
+    public BigDecimal getWarDestructionPercentage() throws JSONException {
+        return (BigDecimal) WAR_INFO.getJSONObject("clan").get("destructionPercentage");
+    }
+
+    public Integer getOpponentCurrentStars() throws JSONException {
+        return (Integer) WAR_INFO.getJSONObject("opponent").get("stars");
+    }
+
+    public Integer getOpponentCurrentAttacks() throws JSONException {
+        return (Integer) WAR_INFO.getJSONObject("opponent").get("attacks");
+    }
+
+    public BigDecimal getOpponentWarDestructionPercentage() throws JSONException {
+        return (BigDecimal) WAR_INFO.getJSONObject("opponent").get("destructionPercentage");
+    }
+
 
 }

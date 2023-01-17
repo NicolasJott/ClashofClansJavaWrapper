@@ -120,7 +120,7 @@ public class Clan {
             System.out.println("Not Unlocked Yet");
         }
 
-        return null;
+        return 0;
     }
 
     public JSONArray getClanMembers() throws JSONException {

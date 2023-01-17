@@ -7,8 +7,8 @@ import java.io.IOException;
 public class PlayerInfo {
 
     public static void main(String[] args) throws IOException {
-        String PLAYER_TAG = "QUROQGQRG";
-        String API_KEY = Tokens.getAPI_KEY();
+        String PLAYER_TAG = Tokens.getOtter();
+        String API_KEY = Tokens.getYsuApiKey();
         Player player = new Player(API_KEY, PLAYER_TAG);
 
         System.out.println(player.getAchievements());
